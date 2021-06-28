@@ -12,9 +12,8 @@
    
 
 ### Reources
-- S3 Amazon Data Sets Link list: _Amason Review datasets_: <https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt>
-- Used S3 link <https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Mobile_Apps_v1_00.tsv.gz>
-- Used Software and Service: Amazon RDS, S3, PySpark, pgAdmin 4
+- Used data resources: `MechaCar_mpg.csv`, `Suspension_Coil.csv`
+- Used Software and Service: R, RStudio
 
 ## Analysis 
 ### Linear Regression to Predict MPG
@@ -41,4 +40,9 @@
   Reviewing the p-values of each Lot and the entire population mean, we can see that Lot 3's p-value is 0.042 and shows that there is significant evidence that suspension coild is different from the population mean.
   
 ### Study Design: MechaCar vs Competition
-
+  Lastly, we will design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other competitors. 
+  In addition to the MPG, which we focused on this analysis earlier, I suggest to test  
+- What metric or metrics are you going to test?
+- What is the null hypothesis or alternative hypothesis?
+- What statistical test would you use to test the hypothesis? And why?
+- What data is needed to run the statistical test?
